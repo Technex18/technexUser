@@ -23,8 +23,8 @@ urlpatterns = [
     #url(r'^events/',include('Events.urls')),
     url(r'^',include('Auth.urls')),
     #url(r'^api/',include('authApi.urls')),
-    url(r'^',include('payment.urls')),
-    url(r'^',include('reg.urls'))
+    # url(r'^',include('payment.urls')),
+    # url(r'^',include('reg.urls'))
     
 ]+ static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
 
