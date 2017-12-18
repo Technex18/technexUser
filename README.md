@@ -47,7 +47,7 @@ Facebook auth may not work on local server, and sheets link have to be changed.
 
 ## Login Api
 <br><br>
-Url: http://technexuser.herokuapp.com/api/login
+Url: http://technex2017.herokuapp.com/api/login
 <br>
 Method: POST
 <br>
@@ -82,7 +82,7 @@ Json Response for Already Logged in User:<br>
 						 
 		
 ## Logout Api
-Url: https://technexuser.herokuapp.com/api/logout
+Url: https://technex2017.herokuapp.com/api/logout
 Method: POST
 Json Expected:
 {"email":"email of user"}
@@ -92,7 +92,7 @@ Json on failure or wrong email: {"status":0}
 
 ## Event Api
 <br><br>
-Url: https://technexuser.herokuapp.com/api/eventApi
+Url: https://technex2017.herokuapp.com/api/eventApi
 <br>
 Method: GET/POST
 <br>
@@ -131,7 +131,7 @@ Json Response :{<br>
 ## Forgot Password Api
 (UI not build till now although,it is totally functional)
 <br><br>
-Url: https://technexuser.herokuapp.com/api/forgotPass/
+Url: https://technex2017.herokuapp.com/api/forgotPass/
 <br>
 Method: POST
 <br>
@@ -155,7 +155,7 @@ Json response for network error(try again in this case, althoug not likely to co
 			}<br>
 
 ## Event Registration Api
-link:https://technexuser.herokuapp.com/api/eventReg/
+link:https://technex2017.herokuapp.com/api/eventReg/
 Expected JSon:
 
 {'eventSlug': 'robowars', 'members': ['memberEmail1 or TechnexId1','memberEmail2 or TechnexId2'], u'teamName': 'TeamName', 'teamLeaderEmail': 'b@b.com'}
@@ -172,7 +172,7 @@ Error Response:
 }
 
 ## Workshop Api
-url: https://technexuser.herokuapp.com/api/workshops/
+url: https://technex2017.herokuapp.com/api/workshops/
 Sample Response: {
   "status": 1,
   "workshops": [
@@ -189,7 +189,7 @@ Sample Response: {
 }
 
 #guestLectureApi
-url:https://technexuser.herokuapp.com/api/guestLecture/
+url:https://technex2017.herokuapp.com/api/guestLecture/
 Resposne:
 
 {
@@ -274,9 +274,9 @@ Error Response:
 {"status":0}
 
 Urls:
-https://technexuser.herokuapp.com/api/startUpFairApi/
-https://technexuser.herokuapp.com/api/exhibitionsApi/
-https://technexuser.herokuapp.com/api/pronitesApi/
-https://technexuser.herokuapp.com/api/instituteDayApi/
-https://technexuser.herokuapp.com/api/corporateConclaveApi/
-https://technexuser.herokuapp.com/api/hospitalityApi/
+https://technex2017.herokuapp.com/api/startUpFairApi/
+https://technex2017.herokuapp.com/api/exhibitionsApi/
+https://technex2017.herokuapp.com/api/pronitesApi/
+https://technex2017.herokuapp.com/api/instituteDayApi/
+https://technex2017.herokuapp.com/api/corporateConclaveApi/
+https://technex2017.herokuapp.com/api/hospitalityApi/
