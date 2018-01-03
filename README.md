@@ -155,7 +155,7 @@ Json response for network error(try again in this case, althoug not likely to co
 			}<br>
 
 ## Event Registration Api
-link:https://technex2017.herokuapp.com/api/eventReg/
+link:https://technex2017.herokuapp.com/api/eventRegistration/
 Expected JSon:
 
 {'eventSlug': 'robowars', 'members': ['memberEmail1 or TechnexId1','memberEmail2 or TechnexId2'], u'teamName': 'TeamName', 'teamLeaderEmail': 'b@b.com'}
