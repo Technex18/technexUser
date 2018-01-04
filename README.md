@@ -261,7 +261,22 @@ Resposne:
   "status": 1
 }
 
+## Notification Token API
 
+link:http://technex2017.herokuapp.com/api/notificationToken/
+Expected Json:
+
+{'notificationToken':token}
+
+Successfull Json Response:
+{
+"status":1
+}
+
+Error Response:
+{
+"status":0
+}
 
 ## Short Apis
 Response:
