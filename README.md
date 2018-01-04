@@ -266,7 +266,10 @@ Resposne:
 link:http://technex2017.herokuapp.com/api/notificationToken/
 Expected Json:
 
-{'notificationToken':token}
+{
+'notificationToken':token
+'technexId':id(optional)
+}
 
 Successfull Json Response:
 {
