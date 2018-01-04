@@ -47,7 +47,7 @@ Facebook auth may not work on local server, and sheets link have to be changed.
 
 ## Login Api
 <br><br>
-Url: http://technex2017.herokuapp.com/api/login
+Url: http://technex2017.herokuapp.com/api/login/
 <br>
 Method: POST
 <br>
@@ -82,7 +82,7 @@ Json Response for Already Logged in User:<br>
 						 
 		
 ## Logout Api
-Url: https://technex2017.herokuapp.com/api/logout
+Url: https://technex2017.herokuapp.com/api/logout/
 Method: POST
 Json Expected:
 {"email":"email of user"}
@@ -92,7 +92,7 @@ Json on failure or wrong email: {"status":0}
 
 ## Event Api
 <br><br>
-Url: https://technex2017.herokuapp.com/api/eventApi
+Url: https://technex2017.herokuapp.com/api/eventApi/
 <br>
 Method: GET/POST
 <br>
