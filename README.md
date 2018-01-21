@@ -4,11 +4,11 @@ Event,hospitality and registration management website for the Techno-Management 
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-The dashboard provides total management of 
+The dashboard provides total management of: 
 
 ## Technology Stack
 
-mainly:
+Mainly:
 
 Django 1.9<br>
 Angular 1 <br>
@@ -27,12 +27,13 @@ Python 2.7, postgresql 9 or above, virtualenv(preferably virtualenv wrapper too,
 ### Installing
 
 create an environment via virtualenv(or preferably using virtualenvwrapper which easier to manage !)
+```bash
+$ git clone https://github.com/In-vincible/technexUser.git
 
-git clone https://github.com/In-vincible/technexUser.git
+$ cd technexuser
 
-cd technexuser
-
-pip install -r requirements.txt
+$ pip install -r requirements.txt
+```
 
 ### Running website
 
