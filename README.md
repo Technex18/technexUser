@@ -102,8 +102,6 @@ Json Response :{<br>
 					
 					"data":[
 					{
-						"name":parentEventName,
-						"description":parentEventDescription,
 						"events":[
 								{
 									"eventName":eventName,
@@ -119,7 +117,10 @@ Json Response :{<br>
 											}
 											]
 								}
-							]
+						],
+						"order": (order of display of parent events,lower order will be at top),
+						"name":parentEventName,
+						"description":parentEventDescription,
 					}
 			
 			
